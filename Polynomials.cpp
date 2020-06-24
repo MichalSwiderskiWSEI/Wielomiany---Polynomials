@@ -510,11 +510,11 @@ void App::printMenuInLoop()
 
 int main()
 {
-    setlocale(LC_ALL, "");
-    std::cout << "       Operacje na wielomianach 1 zmiennej" << std::endl;
-    std::cout << std::endl;
-    std::cout << "--------------------" << std::endl;
-    auto app = new App();
-    app->App::start();
-    return 0;
+	setlocale(LC_ALL, "");
+	std::cout << "       Operacje na wielomianach 1 zmiennej" << std::endl;
+	std::cout << std::endl;
+	std::cout << "--------------------" << std::endl;
+	auto app = new App();
+	app->App::start();
+	return 0;
 }
